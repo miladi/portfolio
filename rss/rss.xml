@@ -13,6 +13,25 @@
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<generator>https://miladi.github.io/portfolio/</generator>
+        <item>
+			<title>test Pricing Plans</title>
+			<link>https://our.releasenotes.io/release/DXcL5-new-pricing-plans</link>
+			<dc:creator>
+				<![CDATA[Chris Duell]]>
+			</dc:creator>
+			<pubDate>Mon, 21 Jun 2021 10:05:37 +0000</pubDate>
+			<description>
+				<![CDATA[Test to ReleaseNotes has remained the same since it was launched 2 years ago. In that time a lot has been learned about what people need, and how they're using ReleaseNotes.&nbsp;
+As a result, pricing has had a refresh to make it simpler, and provide levels that suit each type of team.
+Two Plan Types
+For most teams, the&nbsp;standard&nbsp;plan will be enough to get you up and going. It has all...]]>
+			</description>
+			<content:encoded>
+				<![CDATA[
+<p>Pricing for ReleaseNotes has remained the same since it was launched 2 years ago. In that time a lot has been learned about what people need, and how they're using ReleaseNotes.&nbsp;</p><p>As a result, pricing has had a refresh to make it simpler, and provide levels that suit each type of team.</p><h2>Two Plan Types</h2><p>For most teams, the&nbsp;<strong>standard</strong>&nbsp;plan will be enough to get you up and going. It has allowance for subscribers and announcing your releases to them over email, selecting a theme other than the standard theme, unlimited team members, and more.</p><p>But if you're looking for more control, like custom domain, custom theme, API access,&nbsp;and <a href="https://our.releasenotes.io/release/KRrmX-private-release-notes">private notes</a>, then the&nbsp;<strong>Pro</strong> plan is what you'll need.</p><p>The full details of each plan are below.<strong></strong></p><figure style="text-align: center;"><img src="https://s3.amazonaws.com/release-assets/production/team-1/5e5e3e351d259_Screen Shot 2020-03-03 at 10.23.07 pm.png" data-image="5e5e3e355d436" width="736.608557844691" height="664" style="width: 736.609px; height: 664px;"></figure><h2>Auto-scaling Subscribers</h2><p>Rather than creating a new plan for each different band of subscriber counts, as well as blocking subscriptions when you reached your plans arbitrary cap, subscribers are now a simple addition to your base plan at the flat rate of just <strong>$10 </strong>per <strong>1,000</strong> subscribers (regardless of which plan you select), automatically added to your monthly invoice.</p><p>If you don't want to pay for subscribers, simply don't add any, easy :)</p><h2>Introducing the Free Plan</h2><p>Sometimes all you need is a place to hang your hat, no bells and whistles. Or perhaps you're just getting started with your product and just need to get the ball rolling on sharing your progress.&nbsp;</p><p>That's exactly what the free plan aims to cover. With the free plan, you can display 6 months of your release history (older releases will remain hidden), and use the standard theme at zero cost.</p><h4>New Features</h4><ul><li><p>New plan types</p></li><li><p>Auto-scaling subscriber pricing</p></li><li><p>Free plan</p></li></ul>
+]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>New Pricing Plans</title>
 			<link>https://our.releasenotes.io/release/DXcL5-new-pricing-plans</link>

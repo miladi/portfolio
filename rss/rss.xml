@@ -5,233 +5,23 @@
 	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
 	>
 	<channel>
-		<title>ReleaseNotes.io release notes</title>
-		<link>https://our.releasenotes.io/feed?our</link>
+		<title>Test</title>
+		<link>https://miladi.github.io/portfolio/rss/rss.xml</link>
 		<description>giving your customers the care they deserve</description>
 		<lastBuildDate>Mon, 21 Jun 2021 07:21:37 +0000</lastBuildDate>
 		<language>en-AU</language>
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
-		<generator>https://releasenotes.io</generator>
-        <item>
-			<title>test private releases via the API</title>
-			<link>https://our.releasenotes.io/release/PSAIZ-create-private-releases-via-the-api</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Sun, 26 Apr 2021 00:10:59 +0000</pubDate>
-			<description>
-				<![CDATA[From help with automation, you can now set the private flag when creating a new release via the API.The Zapier integration has also been updated to allow for this flag....]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-<p>From help with automation, you can now set the private flag when <a href="https://releasenotes.elevio.help/en/articles/87753-create-a-release">creating a new release via the API</a>.</p><p>The <a href="https://releasenotes.elevio.help/en/articles/87755-create-releases-notes-via-zapier">Zapier integration</a> has also been updated to allow for this flag.</p>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>Create private releases via the API</title>
-			<link>https://our.releasenotes.io/release/PSAIZ-create-private-releases-via-the-api</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Sun, 25 Apr 2021 00:10:59 +0000</pubDate>
-			<description>
-				<![CDATA[To help with automation, you can now set the private flag when creating a new release via the API.The Zapier integration has also been updated to allow for this flag....]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-<p>To help with automation, you can now set the private flag when <a href="https://releasenotes.elevio.help/en/articles/87753-create-a-release">creating a new release via the API</a>.</p><p>The <a href="https://releasenotes.elevio.help/en/articles/87755-create-releases-notes-via-zapier">Zapier integration</a> has also been updated to allow for this flag.</p>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>October Updates</title>
-			<link>https://our.releasenotes.io/release/deMIE-october-updates</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Sat, 24 Oct 2020 22:31:12 +0000</pubDate>
-			<description>
-				<![CDATA[* A number of improvements to the lazy image loader in the Modal view
-
-* Only attempts to auto-open the Modal if the setting is enabled, and it can reliably remember state (so it doesn't always open on every visit for some users)
-
-* Fixed CORS issue with embeddables in some situations
-
-* Fixed issue with featured image size in Modal headers
-
-* Fixed an issue where opening a specific release with J...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-
-<h4>Updates</h4><ul><li><p>A number of improvements to the lazy image loader in the Modal view</p></li><li><p>The order of releases on your dashboard is now by the release date, with unpublished releases coming first</p></li></ul><h4>Bugfixes</h4><ul><li><p>Only attempts to auto-open the Modal if the setting is enabled, and it can reliably remember state (so it doesn't always open on every visit for some users)</p></li><li><p>Fixed CORS issue with embeddables in some situations</p></li><li><p>Fixed issue with featured image size in Modal headers</p></li><li><p>Fixed an issue where opening a specific release with JavaScript (e.g. <code>rnw('show', '123xzy')</code>) wouldn't load images in the content</p></li></ul>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>August Updates</title>
-			<link>https://our.releasenotes.io/release/ps7Xr-august-updates</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Sun, 30 Aug 2020 23:30:47 +0000</pubDate>
-			<description>
-				<![CDATA[* If you are displaying the Release Notes Banner, now if the user dismisses it that state will be remembered and the banner won't reappear on page reload.
-
-* Fixed a long standing issue with mail provider and DNS protection that was preventing mail event webhooks from passing data through. Essentially this means mail events for analytics were not being recorded. This should be resolved now.
-
-* Fix...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-
-<h4>Updates</h4><ul><li><p>If you are displaying the <a href="https://releasenotes.elevio.help/en/articles/87763-release-notes-banner">Release Notes Banner</a>, now if the user dismisses it that state will be remembered and the banner won't reappear on page reload.</p></li></ul><h4>Bugfixes</h4><ul><li><p>Fixed a long standing issue with mail provider and DNS protection that was preventing mail event webhooks from passing data through. Essentially this means mail events for analytics were not being recorded. This should be resolved now.</p></li><li><p>Fixed issue where resending initial verification email wasn't working for new registrations</p></li></ul>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>July Updates</title>
-			<link>https://our.releasenotes.io/release/NsFyd-july-updates</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Thu, 23 Jul 2020 08:20:37 +0000</pubDate>
-			<description>
-				<![CDATA[* Added support for loading a specific release in the modal
-
-* Added option to open the individual release from the banner, in the modal
-
-* Added back button when viewing a single release in the modal, to view the full list
-
-* Improved Banner &amp; Modal documentation
-
-* Fixed issue with notification emails not sending
-
-* Fixed issue with notification email footer displaying HTML
-
-* Team members c...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-
-<h4>New Features</h4><ul><li><p>Team members can now be added even while on trial</p></li></ul><h4>Updates</h4><ul><li><p>Added support for loading a specific release in the modal</p></li><li><p>Added option to open the individual release from the banner, in the modal</p></li><li><p>Added back button when viewing a single release in the modal, to view the full list</p></li><li><p>Improved <a href="https://releasenotes.elevio.help/en/articles/87761">Banner &amp; Modal documentation</a></p></li></ul><h4>Bugfixes</h4><ul><li><p>Fixed issue with notification emails not sending</p></li><li><p>Fixed issue with notification email footer displaying HTML</p></li><li><p>Fixed issue with Photo and Avatar uploads</p></li></ul>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>June Updates</title>
-			<link>https://our.releasenotes.io/release/tzD2O-june-updates</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Tue, 09 Jun 2020 10:58:19 +0000</pubDate>
-			<description>
-				<![CDATA[* Fixed an issue when attempting to connect with Slack
-
-* Removed padding from the header area in email notifications, so full width banners look slick
-
-* Installed a System Usability Test survey, keep your eyes peeled 👀
-
-* All underlying systems updated to latest versions, reducing technical debt
-
-* Various bug fixes as a result of the framework updates (write in if you spot any issues)
-
-* Whe...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-
-<h4>New Features</h4><ul><li><p>Installed a System Usability Test survey, keep your eyes peeled 👀</p></li><li><p>All underlying systems updated to latest versions, reducing technical debt</p></li><li><p>Releases loaded via the <a href="https://releasenotes.elevio.help/en/articles/87752-retrieving-releases">API</a> are now displayed in the reporting.</p></li></ul><h4>Updates</h4><ul><li><p>Removed padding from the header area in email notifications, so full width banners look slick</p></li><li><p>When updating the "Released At" value, you can now select the date and time from a picker rather than needing to type it in like a cave person</p></li></ul><h4>Bugfixes</h4><ul><li><p>Fixed an issue when attempting to connect with Slack</p></li><li><p>Various bug fixes as a result of the framework updates (write in if you spot any issues)</p></li></ul>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>Analytics V1</title>
-			<link>https://our.releasenotes.io/release/V1ZVc-analytics-v1</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Sun, 03 May 2020 07:21:20 +0000</pubDate>
-			<description>
-				<![CDATA[It's one thing to announce that you've made a release, but how do you know it's not falling on deaf ears?
-To combat that, today V1 of analytics has been released. In this initial release you're able to see an overall breakdown of how many views your releases are getting over time, broken down into three buckets:&nbsp;web, modal, and email.
-Change the date range from the picker in the top right to ...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-<p>It's one thing to announce that you've made a release, but how do you know it's not falling on deaf ears?</p><p>To combat that, today V1 of <a href="https://app.releasenotes.io/analytics" target="_blank">analytics</a> has been released. In this initial release you're able to see an overall breakdown of how many views your releases are getting over time, broken down into three buckets:&nbsp;web, <a href="https://our.releasenotes.io/release/W2FYA-modals-and-banners" target="_blank">modal</a>, and email.</p><p>Change the date range from the picker in the top right to zoom in or out to whatever time period you'd like to check on.&nbsp;</p><p>As you publish new releases, you'll also see those annotated on the charts as you can see below with the purple vertical line to the right end of the chart below.</p><figure style="text-align: center;"><img src="https://s3.amazonaws.com/release-assets/production/team-1/5eaea5a1e1024_Screen Shot 2020-05-03 at 9.06.00 pm.png" data-image="5eaea5a21a38c" alt="Release Views Report"></figure><p>A report that shows how many new subscribers you're getting over time is also available. This shows how many new subscribers you gained on any given day. Again, new releases are shown as an annotation, so you can see if a certain release was responsible for a bump in subscribers.</p><figure style="text-align: center;"><img src="https://s3.amazonaws.com/release-assets/production/team-1/5eae71a7e76b1_Screen Shot 2020-05-03 at 5.23.53 pm.png" data-image="5eae71a820cf0" alt="New Subscribers Report"></figure><p><br>NB Views started being collected from April 21, as such, that is the furthest back you can view analytics.</p><p>Analytics are available on the <strong>Standard</strong> and <strong>Pro</strong> plans, and can be found at&nbsp;<a href="https://app.releasenotes.io/analytics">https://app.releasenotes.io/analytics</a>&nbsp;</p>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>Modals and Banners</title>
-			<link>https://our.releasenotes.io/release/W2FYA-modals-and-banners</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Thu, 16 Apr 2020 03:42:02 +0000</pubDate>
-			<description>
-				<![CDATA[It's one thing to have a site that lists your updates, but that relies your customers visiting that site.Now, you can embed your release notes right within your site or web app with the Release Notes Modal, and Release Notes BannersReleaseNotes ModalThis is a great way to showcase your latest releases right from within your site, so your users are always made aware of the latest changes. Simply in...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-<p>It's one thing to have a site that lists your updates, but that relies your customers visiting that site.</p><p>Now, you can embed your release notes right within your site or web app with the Release Notes Modal, and Release Notes Banners</p><h2>ReleaseNotes Modal</h2><p>This is a great way to showcase your latest releases right from within your site, so your users are always made aware of the latest changes. Simply install our code snippet on your site, and tie it to any link or icon on your site to get a badge that shows the user how many unseen releases there have been since they last checked them out.</p><p>You even have the ability to automatically show the modal if there's new unseen releases for that customer.</p><p>Check out the example below, and <a href="https://releasenotes.elevio.help/en/articles/87762-release-notes-modal" target="_blank">learn more here</a>.</p><figure style="text-align: center;"><img src="https://s3.amazonaws.com/release-assets/production/team-1/5e97d1ff3fb43_Screen Shot 2020-03-17 at 4.27.59 pm-2bM.png" data-image="5e97d1ff67739" width="716.4878048780488" height="510" style="width: 716.488px; height: 510px;" alt="Modal example"></figure><h2>ReleaseNotes Banners</h2><p>The modal is great for when you have logged in users, but what about your marketing site, what's the best way to let visitors know what your most recent update was, to show them that you're actively improving your product?</p><p>That's where the ReleaseNotes Banners come in, but adding a simple bit of html like this:&nbsp;</p><pre>&lt;rn-banner&gt;&lt;/rn-banner&gt;&nbsp;</pre><p>You can embed a banner on your site that will always be up to date with your most recent update, just set and forget, it couldn't be easier.</p><p>Check out the examples below (and on the <a href="https://releasenotes.io" target="_blank">releasenotes.io</a> home page), and <a href="https://releasenotes.elevio.help/en/articles/87763-release-notes-banner" target="_blank">learn more here</a>.</p><figure style="text-align: center;"><img src="https://s3.amazonaws.com/release-assets/production/team-1/5e97d39ac274e_Screen Shot 2020-03-17 at 4.07.43 pm-min-xL8.png" data-image="5e97d39ae6a8d" alt="Banner examples"></figure><h4>New Features</h4><ul><li><p>ReleaseNotes Banner</p></li><li><p>ReleaseNotes Modal</p></li></ul>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>Updated Pricing During COVID-19</title>
-			<link>https://our.releasenotes.io/release/XcRU7-updated-pricing-during-covid-19</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Tue, 17 Mar 2020 01:24:19 +0000</pubDate>
-			<description>
-				<![CDATA[Recently, an update was made to the main pricing of ReleaseNotes.io, which came inline with a range of new features, one of which being&nbsp;Private Releases to make it easy to share updates with your team. The intended audience for this was for remote teams, and private projects. This feature was reserved for the Pro plan.
-In response to the COVID-19 outbreak, and the mass movement of companies r...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-<p>Recently, an <a href="https://our.releasenotes.io/release/DXcL5-new-pricing-plans">update was made</a> to the main pricing of ReleaseNotes.io, which came inline with a range of new features, one of which being&nbsp;<strong>Private Releases</strong> to make it easy to share updates with your team. The intended audience for this was for remote teams, and private projects. This feature was reserved for the <strong>Pro</strong> plan.</p><p>In response to the COVID-19 outbreak, and the mass movement of companies responsibly electing to have all non-essential staff work from home,&nbsp;the&nbsp;<strong>Private Releases</strong> feature will now be made available on the&nbsp;<strong>Standard</strong> plan until the worst of COVID-19 is behind us all.</p><p>Hopefully this will help to keep your now remote team&nbsp;up to date with the progress of your product, privately.</p><p>Stay safe. ❤️<br><strong></strong><strong></strong><strong></strong></p>
-]]>
-			</content:encoded>
-		</item>
-		<item>
-			<title>March Updates</title>
-			<link>https://our.releasenotes.io/release/2tIB8-march-updates</link>
-			<dc:creator>
-				<![CDATA[Chris Duell]]>
-			</dc:creator>
-			<pubDate>Sun, 08 Mar 2020 04:26:34 +0000</pubDate>
-			<description>
-				<![CDATA[* All images are now lazy loaded, this should dramatically speed up the initial page load speeds for releases with many large images.
-
-* Marketing site refresh.
-
-* Fixed issue where only the account owner could preview unpublished releases
-
-* Fixed issue where only the account owner could add new people to the team
-
-...]]>
-			</description>
-			<content:encoded>
-				<![CDATA[
-
-<h4>New Features</h4><ul><li><p>All images are now lazy loaded, this should dramatically speed up the initial page load speeds for releases with many large images.</p></li></ul><h4>Updates</h4><ul><li><p><a href="https://releasenotes.io">Marketing site</a> refresh.</p></li></ul><h4>Bugfixes</h4><ul><li><p>Fixed issue where only the account owner could preview unpublished releases</p></li><li><p>Fixed issue where only the account owner could add new people to the team</p></li></ul>
-]]>
-			</content:encoded>
-		</item>
+		<generator>https://miladi.github.io/portfolio/</generator>
 		<item>
 			<title>New Pricing Plans</title>
 			<link>https://our.releasenotes.io/release/DXcL5-new-pricing-plans</link>
 			<dc:creator>
 				<![CDATA[Chris Duell]]>
 			</dc:creator>
-			<pubDate>Mon, 02 Mar 2020 09:24:26 +0000</pubDate>
+			<pubDate>Mon, 21 Jun 2021 10:02:37 +0000</pubDate>
 			<description>
-				<![CDATA[Pricing for ReleaseNotes has remained the same since it was launched 2 years ago. In that time a lot has been learned about what people need, and how they're using ReleaseNotes.&nbsp;
+				<![CDATA[Test for ReleaseNotes has remained the same since it was launched 2 years ago. In that time a lot has been learned about what people need, and how they're using ReleaseNotes.&nbsp;
 As a result, pricing has had a refresh to make it simpler, and provide levels that suit each type of team.
 Two Plan Types
 For most teams, the&nbsp;standard&nbsp;plan will be enough to get you up and going. It has all...]]>

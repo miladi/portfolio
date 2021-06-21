@@ -13,6 +13,22 @@
 		<sy:updatePeriod>hourly</sy:updatePeriod>
 		<sy:updateFrequency>1</sy:updateFrequency>
 		<generator>https://releasenotes.io</generator>
+        <item>
+			<title>test private releases via the API</title>
+			<link>https://our.releasenotes.io/release/PSAIZ-create-private-releases-via-the-api</link>
+			<dc:creator>
+				<![CDATA[Chris Duell]]>
+			</dc:creator>
+			<pubDate>Sun, 26 Apr 2021 00:10:59 +0000</pubDate>
+			<description>
+				<![CDATA[From help with automation, you can now set the private flag when creating a new release via the API.The Zapier integration has also been updated to allow for this flag....]]>
+			</description>
+			<content:encoded>
+				<![CDATA[
+<p>From help with automation, you can now set the private flag when <a href="https://releasenotes.elevio.help/en/articles/87753-create-a-release">creating a new release via the API</a>.</p><p>The <a href="https://releasenotes.elevio.help/en/articles/87755-create-releases-notes-via-zapier">Zapier integration</a> has also been updated to allow for this flag.</p>
+]]>
+			</content:encoded>
+		</item>
 		<item>
 			<title>Create private releases via the API</title>
 			<link>https://our.releasenotes.io/release/PSAIZ-create-private-releases-via-the-api</link>

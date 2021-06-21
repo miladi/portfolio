@@ -6,6 +6,11 @@
   <link>https://miladi.github.io/portfolio</link>
   <description>Test</description>
   <item>
+    <title>RSS Test</title>
+    <link>https://www.google.se</link>
+    <description>New Test</description>
+  </item>
+  <item>
     <title>RSS Tutorial</title>
     <link>https://www.w3schools.com/xml/xml_rss.asp</link>
     <description>New RSS tutorial on W3Schools</description>

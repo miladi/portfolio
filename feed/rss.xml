@@ -15,6 +15,11 @@
 		</description>
 		<language>en-US</language>
         <item>
+    <title>RSS Tutorial</title>
+    <link>https://www.w3schools.com/xml/xml_rss.asp</link>
+    <description>New RSS tutorial on W3Schools</description>
+  </item>
+        <item>
 			<title>
 				<![CDATA[Test2 of Ragnarok Isn't Streaming on Netflix India]]>
 			</title>
